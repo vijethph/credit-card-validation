@@ -46,8 +46,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Project Working](screenshot1.png)](screenshot1.png)
-[![Second Picture](screenshot2.png)](screenshot2.png)
+<img src="screenshot1.png" width="250" height="350" alt="Project working">   <img src="screenshot2.png" width="250" height="350" alt="second screenshot">
 
 This is a JavaFX program that uses [Sarxos Webcam Capture API](https://github.com/sarxos/webcam-capture) and [Tesseract OCR Engine](https://github.com/tesseract-ocr/tesseract) to capture credit card image using webcam, parse the numbers in it, and then check the validity of these credit card numbers. It employs an implementation of [Luhn's Algorithm](https://wikipedia.org/wiki/Luhn_algorithm) to validate the credit card numbers.
 

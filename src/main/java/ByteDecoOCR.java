@@ -83,7 +83,7 @@ public class ByteDecoOCR{
 
     public void creditCardScene(ActionEvent actionEvent){
         CreditCardDisplay mds=new CreditCardDisplay();
-        Scene konedu=new Scene(mds.numberValidation(flag),500,500);
+        Scene konedu=new Scene(mds.numberValidation(flag,str),500,500);
         Stage thisStage=(Stage)((Node) actionEvent.getSource()).getScene().getWindow();
         thisStage.setTitle("Credit Card Validation");
         thisStage.setScene(konedu);

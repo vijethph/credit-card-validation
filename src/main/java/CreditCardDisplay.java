@@ -13,9 +13,9 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.FlowPane;
 
 public class CreditCardDisplay {
-    public FlowPane numberValidation(Boolean flag){
+    public FlowPane numberValidation(Boolean flag,String str){
         Label label1=new Label("Credit Card Number: ");
-        TextField textField=new TextField();
+        TextField textField=new TextField(str);
         Label label2=new Label();
         Label label3=new Label();
         if(!flag){
